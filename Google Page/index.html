@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .navbar {
+        text-align: end;
+      }
+      .navbar ul li {
+        display: inline-block;
+        padding: 5px;
+        font-size: 20px;
+      }
+      .navbar ul li a {
+        text-decoration: none;
+        color: black;
+      }
+      .img {
+        text-align: center;
+      }
+      input {
+        /* border-radius-: 10px; */
+        border-radius: 25px 25px 25px 25px;
+        size: 50px;
+        padding: 10px 67px 10px 40px;
+        min-width: 508px;
+        height: 25px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: transparent;
+        border: 0px solid;
+        outline: none;
+      }
+    
+      .search {
+        text-align: center;
+        margin-top: 45px;
+      }
+      .search i {
+        width: 0px;
+        position: absolute;
+        padding: 15px;
+      }
+      .add {
+        text-align: center;
+        margin-top: 50px;
+      }
+      
+      .add  a {
+        border-radius: 20px 20px 20px;
+        font-size: larger;
+        border: 1px seagreen;
+        text-decoration: none;
+      }
+      #camera{
+        position: absolute;
+        right: 483px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <ul>
+          <li><a href="#">Gmail</a></li>
+          <li><a href="#">Images</a></li>
+          <li>
+            <a href="#"><i class="fa-solid fa-flask"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-regular fa-circle-user"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="img">
+        <img src="icon.png" alt="" />
+      </div>
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search Google or type a URL" required />
+        <i class="fa-solid fa-camera" id="camera"></i>
+      </div>
+      <div class="add">
+        <a href="#"><i class="fa-solid fa-plus"></i></a><br />
+        <label for=" Add Shorcut" >Add Shortcut</label>
+      </div>
+    </div>
+  </body>
+</html>

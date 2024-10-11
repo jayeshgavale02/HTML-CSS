@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap");
+body{
+  background-color: rgba(171, 234, 234, 0.486);
+}
+
+body {
+  background-color: rgba(171, 234, 234, 0.486);
+  font-family: "Edu AU VIC WA NT Hand", sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+
+.main {
+  text-align: center;
+  background-color: rgb(249, 249, 249);
+  height: 320px;
+  width: 350px;
+  border-radius: 5px;
+  border: 1px solid rgba(87, 69, 126, 0.411);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+
+.hedding {
+  font-family: "Sofia", sans-serif;
+}
+.inputtype {
+  margin-top: 0px;
+}
+.inputtype input {
+  margin: 5px;
+  background-color: rgba(122, 136, 148, 0.132);
+  border: 1px solid;
+  padding: 5px;
+  border-radius: 5px ;
+  width: 230px;
+  height: 25px;
+}
+.inputtype button {
+  width: 240px;
+  height: 25px;
+  margin-top: 5px;
+  background-color: rgb(97, 97, 217);
+  border-radius: 5px;
+  color: aliceblue;
+  border: 1px solid wheat;
+}
+.lefthr {
+  width: 100px;
+  margin-left: 55px;
+  margin-top: 20px;
+}
+.rigthhr {
+  width: 100px;
+  margin-top: -39px;
+  margin-right: 55px;
+}
+button {
+  width: 150px;
+  height: 25px;
+  margin-top: 15px;
+  background-color: rgb(30, 30, 102);
+  border-radius: 5px;
+  color: aliceblue;
+  border: 1px solid wheat;
+}
