@@ -42,15 +42,6 @@ A clone of LinkedIn’s homepage, featuring the professional look and feel, logi
 3. Practice **responsive design** techniques to ensure adaptability on different devices.
 4. Enhance problem-solving skills by identifying the best layout strategies (Grid, Flexbox).
 
-## 📸 Screenshots
-### Instagram Clone
-![Instagram Clone Screenshot](path_to_your_instagram_clone_screenshot)
-
-### Google Clone
-![Google Clone Screenshot](path_to_your_google_clone_screenshot)
-
-### LinkedIn Clone
-![LinkedIn Clone Screenshot](path_to_your_linkedin_clone_screenshot)
 
 ## 🛠️ Tech Stack
 - **HTML5**: For building the structure and content of the pages.
@@ -58,11 +49,6 @@ A clone of LinkedIn’s homepage, featuring the professional look and feel, logi
   - Flexbox: Used for layout design and positioning.
   - Grid: For building responsive and adaptable designs.
   - Media Queries: To ensure the pages are mobile-friendly.
-
-## 🌐 Live Demos
-- [Instagram Clone](#) (Link to the live demo)
-- [Google Clone](#) (Link to the live demo)
-- [LinkedIn Clone](#) (Link to the live demo)
 
 ## 💡 Future Improvements
 - Add backend functionality to support user interactions and dynamic content.
